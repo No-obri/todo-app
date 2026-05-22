@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo-app
-        image: YOUR_DOCKERHUB_USERNAME/todo-app:latest
+        image: sp23bct016/todo-app:latest
         ports:
         - containerPort: 3000
         env:
