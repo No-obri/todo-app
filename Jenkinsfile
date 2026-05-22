@@ -13,7 +13,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: 'https://github.com/YOUR_GITHUB_USERNAME/todo-app.git'
+                    url: 'https://github.com/No-obri/todo-app.git'
                 echo 'Code fetched successfully from GitHub.'
             }
         }
