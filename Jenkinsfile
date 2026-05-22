@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'YOUR_DOCKERHUB_USERNAME/todo-app'
+        DOCKER_IMAGE = 'sp23bct016/todo-app'
         DOCKER_TAG   = "${env.BUILD_NUMBER}"
     }
 
